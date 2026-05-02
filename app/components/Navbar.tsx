@@ -11,7 +11,7 @@ const Navbar = () => {
          <RiNextjsFill className='w-16 h-16'></RiNextjsFill>
         </Link>
            <ul className='flex gap-10 text-lg'>
-           <Link href="/" className='transition duration-300 hover:scale-110'>
+           <Link href="/" className='transition duration-300 hover:scale-110 underline underline-offset-8 decoration-4 decoration-blue-500'>
              Home
            </Link>
            <Link href="/about" className='transition duration-300     hover:scale-110'>
