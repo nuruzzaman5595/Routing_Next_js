@@ -6,7 +6,7 @@ import { RiNextjsFill } from 'react-icons/ri'
 const Navbar = () => {
   return (
     <>
-        <nav className='w-full h-16 bg-zinc-500 rounded-2xl py-10 text-white flex items-center justify-between  px-25'>
+        <nav className='w-full h-16 bg-zinc-500 fixed py-10  text-white flex items-center justify-between  px-25'>
         <Link href="/" className='transition duration-300 hover:scale-110'>
          <RiNextjsFill className='w-16 h-16'></RiNextjsFill>
         </Link>
